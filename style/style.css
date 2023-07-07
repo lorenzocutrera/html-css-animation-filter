@@ -92,7 +92,7 @@
     transform: scale(2);
 }
 .ex-5-square:active{
-    transform: scale(2);
+    transform: scale(.2);
 }
 
 
@@ -104,6 +104,13 @@
     filter: grayscale(1);
 }
 
+.ex-7-img:hover{
+    filter: grayscale(1);
+    transition: 1s;
+}
+.ex-7-img:active{
+    filter: grayscale(.1);
+}
 
 
 .ex-9-img {

@@ -37,7 +37,7 @@
 }
 
 /* effects */
-
+/* effect-1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -48,7 +48,7 @@
     background-color: red;
 }
 
-
+/* effect-2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-
+/* effect-3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -70,6 +70,7 @@
     border-radius: 50%;
 }
 
+/* effect-4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -80,7 +81,7 @@
     opacity: 0;
 }
 
-
+/* effect-5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -95,15 +96,15 @@
     transform: scale(.2);
 }
 
-
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+/* effect-6 */
 .ex-6-img:hover{
     filter: grayscale(1);
 }
-
+/* effect-7 */
 .ex-7-img:hover{
     filter: grayscale(1);
     transition: 1s;
@@ -111,7 +112,15 @@
 .ex-7-img:active{
     filter: grayscale(.1);
 }
-
+ /*effect-8 */ 
+.ex-8-img:hover{
+    filter: sepia(3);
+}
+.ex-8-img:active{
+    filter: contrast(3);
+    border-radius: 50%;
+    transition: 100ms;
+}
 
 .ex-9-img {
     margin: 50px 100px;

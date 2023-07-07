@@ -137,9 +137,18 @@
     transform: scale(.1);
 }
 
+/* effect-10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: load 1s infinite;
 }
+@keyframes load {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
